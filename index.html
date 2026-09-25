@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+</head>
+<body>
+    <nav style="background-color: #282A35; padding: 15px;">
+       <a href="index.html" style="color: white; margin-right: 30px;">HOME</a>
+       <a href="flex.html" style="color: white; margin-right: 30px;">FLEX</a>
+       <!-- <a href="css.html" style="color: white; margin-right: 30px;">CSS</a>
+       <a href="task-3.html" style="color: white; margin-right: 30px;">TASK 3</a>
+       <a href="blog.html" style="color: white; margin-right: 30px">BLOG</a>
+       <a href="display.html" style="color: white;">DISPLAY</a> -->
+    </nav>
+    <!-- Emmet is a powerfull thing in HTML. It give us the advantage of writing the 
+         HTML code within a short time and typing. 
+         #To apply emmet we just have to wrtie the tag name and just enter tab.
+          Also we can write a long emmet code to write anything big enough that
+          will take time to wrtie manually. -->
+
+    
+    <p></p>
+    <h1></h1>
+    <button></button>
+    <div></div>
+
+    <!-- This are the single tag element with emmet -->
+
+
+    <!-- .container>.box*5{box - $} -->
+    <div class="container">
+        <div class="box">box - 1</div>
+        <div class="box">box - 2</div>
+        <div class="box">box - 3</div>
+        <div class="box">box - 4</div>
+        <div class="box">box - 5</div>
+    </div>
+
+    <!-- div>section>article>h2 -->
+     <div>
+        <section>
+            <article>
+                <h2></h2>
+            </article>
+        </section>
+     </div>
+
+    <!-- div>article*3>section>h2+p*2  -->
+     <div>
+        <article>
+            <section>
+                <h2></h2>
+                <p></p>
+                <p></p>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2></h2>
+                <p></p>
+                <p></p>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2></h2>
+                <p></p>
+                <p></p>
+            </section>
+        </article>
+     </div>
+
+    <!-- .container>h2.header#first -->
+    <div class="container">
+        <h2 class="header" id="first"></h2>
+    </div>
+
+    <!-- ul.container>li.item*5{item - $} -->
+    <ul class="container">
+        <li class="item">item - 1</li>
+        <li class="item">item - 2</li>
+        <li class="item">item - 3</li>
+        <li class="item">item - 4</li>
+        <li class="item">item - 5</li>
+    </ul>
+
+
+    <!-- 01. If we have to create anything inside another tag just have to give
+        the (>) sign between them like  -->
+        <!-- div>section>article -->
+        <div>
+            <section>
+                <article></article>
+            </section>
+        </div>
+
+    <!--  02. If we have to write how many tag we want just put (*) sign after them -->
+    <!-- section*3>article*2>p*2  -->
+    <section>
+        <article>
+            <p></p>
+            <p></p>
+        </article>
+        <article>
+            <p></p>
+            <p></p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <p></p>
+            <p></p>
+        </article>
+        <article>
+            <p></p>
+            <p></p>
+        </article>
+    </section>
+
+    <!-- 03. If we have to make any section where there will be one header tag then another 
+         paragraph or any other tag we can use (+) sign for that. like-->
+
+         <!-- div>section>h2+p*2 -->
+        <div>
+            <section>
+                <h2></h2>
+                <p></p>
+                <p></p>
+            </section>
+        </div>
+     
+    <!-- 04. If we have to write anything inside any tag we can use second bracket 
+         and write whatever we want. Like -->
+
+        <!-- div>p.item*2{Kawsar - $} -->
+        <div>
+            <p class="item">Kawsar - 1</p>
+            <p class="item">Kawsar - 2</p>
+        </div>
+
+    <!-- 05. And for the class and id we write like below -->
+    
+    <!-- div>article.akib#id*2>h1+p*2 -->
+    <div>
+        <article class="akib" id="id">
+            <h1></h1>
+            <p></p>
+            <p></p>
+        </article>
+        <article class="akib" id="id">
+            <h1></h1>
+            <p></p>
+            <p></p>
+        </article>
+    </div>
+
+    <!-- 06. [] — Attributes like:  input[type="text"] , a[href="https://google.com"] -->
+    <input type="text">
+    <a href="https://google.com"></a>
+
+    <!-- 07. Combining class + ID + attributes -->
+    <!-- input#email.form-input[type="email" placeholder="Enter email"] -->
+    <input type="email" 
+           id="email" 
+           class="form-input" 
+           placeholder="Enter email"
+    >
+
+    <!-- 08. $ — Numbering: div.item$*5-->
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3"></div>
+    <div class="item4"></div>
+    <div class="item5"></div>
+
+
+    <!-- 09. $ inside text: li{Item $}*5 -->
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    
+
+    
+
+
+</body>
+</html>
