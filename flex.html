@@ -5,6 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <style>
+        div{
+          font-size: 1.5rem;
+        }
+
+        .picture-container{
+            border: 1px solid purple;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+
+        .picture{
+            border: 1px solid cyan;
+            height: 75px;
+        }
+
+        .user-container{
+              display: flex;
+              justify-content: space-around;
+              gap: 20px;
+              flex-wrap: wrap;
+        }
+ 
+        .user{
+            border: 1px solid red;
+            height: 100px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            /* gap:20px; */
+            justify-content: space-between;
+        }
         .box{
             border: 1px solid black;
             height: 100px;
@@ -12,7 +46,7 @@
     </style>
 </head>
 <body>
-    <nav style="background-color: #282A35; padding: 15px;">
+    <nav style="background-color: #282A35; padding: 15px; margin-bottom: 20px;">
        <a href="index.html" style="color: white; margin-right: 30px;">HOME</a>
        <a href="flex.html" style="color: white; margin-right: 30px;">FLEX</a>
        <!-- <a href="css.html" style="color: white; margin-right: 30px;">CSS</a>
@@ -21,6 +55,27 @@
        <a href="display.html" style="color: white;">DISPLAY</a> -->
     </nav>
 
+    <div class="picture-container">
+        <div class="picture">Picture</div>
+    </div>
+
+    <div class="user-container">
+        <div class="user">user - 1</div>
+        <div class="user">user - 2</div>
+        <div class="user">user - 3</div>
+        <div class="user">user - 4</div>
+        <div class="user">user - 5</div>
+        <div class="user">user - 6</div>
+        <div class="user">user - 7</div>
+        <div class="user">user - 8</div>
+        <div class="user">user - 9</div>
+        <div class="user">user - 10</div>
+        <div class="user">user - 11</div>
+        <div class="user">user - 12</div>
+        <div class="user">user - 13</div>
+        <div class="user">user - 14</div>
+        <div class="user">user - 15</div>
+    </div>
     <div class="container">
         <div class="box">box - 1</div>
         <div class="box">box - 2</div>
