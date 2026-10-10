@@ -1,0 +1,40 @@
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 10px 20px;
+    background-color:#182232;;
+}
+
+nav ul li{
+    display: inline;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+nav ul li:first-child{
+    margin-right: auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    margin: 0;
+}
+
+.tech {
+    color: white;
+}
+
+.store {
+    color: #3b82f6;
+}
