@@ -21,3 +21,7 @@ nav ul li a{
     font-weight: bold;
     font-size: 1.5rem;
 }
+
+body{
+    margin: 0;
+}
